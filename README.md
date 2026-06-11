@@ -1,30 +1,20 @@
-# Mold Box Generator
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-> Generates a 3D-printable plaster mold box around any uploaded STL model with customizable features.
+# Run and deploy your AI Studio app
 
-**Live Demo:** https://carr91.github.io/mold-box-generator/
+This contains everything you need to run your app locally.
 
-## Quick Start
+View your app in AI Studio: https://ai.studio/apps/186a2608-a675-4dd4-b93f-cee15db484e1
 
-```bash
-npm install
-npm run dev
-```
+## Run Locally
 
-## Build
+**Prerequisites:**  Node.js
 
-```bash
-npm run build
-```
 
-## Features
-
-- 3D STL mesh upload (ASCII & binary)
-- Real-time CAD preview
-- Full transform controls
-- Customizable mold box
-- Export watertight STL
-
-## License
-
-MIT
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

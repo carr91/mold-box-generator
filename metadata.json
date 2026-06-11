@@ -1,6 +1,0 @@
-{
-  "name": "Mold Box Generator",
-  "description": "Generates a 3D-printable plaster mold box around any uploaded STL model with customizable features.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
